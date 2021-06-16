@@ -15,3 +15,5 @@ const times = (y) => `*${y}`;
 const dividedBy = (y) => `/${y}`;
 
 const createNumber = (x, y) => (x ? parseInt(eval(`${y}${x}`)) : `${y}`);
+
+console.log(four(times(three())));
